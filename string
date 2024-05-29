@@ -25,6 +25,11 @@ if __name__ == '__main__':
     print(result)
 
 3.find the how many times substring occurs in the string
+
+INPUT:            OUTPUT:
+ABCDCDC             2
+CDC
+
 def count_substring(string, sub_string):
     count = 0 
     sub_len = len(sub_string) 
